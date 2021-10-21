@@ -1,0 +1,15 @@
+[Unit]
+Description=Run script at startup after network becomes reachable
+After=network.target
+
+[Service]
+Type=simple
+RemainAfterExit=no
+ExecStart=/usr/bin/python3 /home/pi/pi-connect/client/push.py
+WorkingDirectory=/home/pi/pi-connect/client
+TimeoutStartSec=0
+Restart=always
+RestartSec=5
+
+[Install]
+WantedBy=default.target
