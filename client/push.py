@@ -10,7 +10,7 @@ logger = logging.getLogger(__name__)
 logger.setLevel(logging.DEBUG)
 
 
-TOKEN = pathlib.Path('/home/pi/pi-connect/.token').read_text().strip()
+TOKEN = pathlib.Path('.token').read_text().strip()
 DESTINATION_URL = "https://pi.romanpeters.nl/"
 
 
