@@ -18,3 +18,6 @@ To see if a Raspberry Pi is currently online.
 1. Put a copy of the .token file in the server directory
 2. `docker build . --tag pi-connect:latest`
 3. `docker-compose up`
+
+
+![server page](/screenshot.png)
