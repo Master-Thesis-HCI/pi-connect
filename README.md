@@ -1,6 +1,6 @@
 # pi-connect
 
-`client` pushes info to server (configure running through systemd/crontab.
+`client` pushes info to server (configure running through systemd/crontab.  
 `server` displays info on a web page.
 
 ### Use case
