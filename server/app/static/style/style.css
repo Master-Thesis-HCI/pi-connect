@@ -1,0 +1,15 @@
+h1, h2 {
+    text-align: center;
+}
+
+h2 {
+    color: gray;
+}
+
+
+.centered {
+    position: absolute;
+    top: 10%;
+    left: 20%;
+    right: 20%;
+}
