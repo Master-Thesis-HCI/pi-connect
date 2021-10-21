@@ -19,5 +19,8 @@ To see if a Raspberry Pi is currently online.
 2. `docker build . --tag pi-connect:latest`
 3. `docker-compose up`
 
+### Host URL paths
+- `/reset` will remove the state info the server has on the client.
+- `/connect` if the client has given its IP address, this URL will redirect to that IP.
 
 ![server page](/screenshot.png)
