@@ -92,6 +92,6 @@ def ping():
 @app.route("/connect")
 def connect():
     if state.ip:
-        return redirect(f"http://{state.ip}")
+        return redirect(f"http://{state.ip}:1234")
     else:
         return redirect(url_for('index'), 503)
